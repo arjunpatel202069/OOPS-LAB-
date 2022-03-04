@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int ADD(int m,int n)
+{   
+	return m+n;
+}
+int main()
+{   int m,n;
+	cout<<"ENTER THE NUMBERS"<<endl;
+	cin>>m>>n;
+	cout<<"RESULT:"<<ADD(m,n);
+	
+}
